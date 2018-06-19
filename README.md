@@ -1,2 +1,2 @@
-# Copps
-A system for discovering [CO]rrelations between [P]athologies and [P]ollution [S]ources
+# Co.P.P.S. Discovery
+A system for discovering Correlations between Pathologies and Pollution Sources.
