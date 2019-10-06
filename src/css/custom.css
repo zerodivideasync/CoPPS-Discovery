@@ -1,0 +1,425 @@
+@CHARSET "ISO-8859-1";
+
+/* 
+ * This css file is for our customizations 
+ */
+#msg {
+    max-height: 20vh;
+    overflow-y: auto;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.blue-nav-link {
+    background-color: #426f79 !important;
+    color: white !important;
+}
+
+.br-radius-50 {
+    border-radius: 50px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.delete-cross-button-diagnosis {
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.cookie-fixed {
+    bottom: 40px;
+    margin-bottom: 0px;
+    border-width: 1px 0 0;
+    position: absolute;
+    background-color: #17a2b8e8;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.index-banner, .section-banner {
+    background-color: RGBA(13, 70, 83, 0.78);
+}
+.index-banner {
+    min-height: 650px;
+}
+
+.hidden {
+    display: none;
+}
+
+section.section-bottom-padding {
+    padding-bottom: 5vw;
+}
+
+.container-banner-title {
+    padding-top: 200px;
+}
+
+.navbar {
+    width: 100%;
+    width: -moz-available;
+}
+
+.font-white {
+    color:  #fff !important;
+}
+
+.font-red {
+    color: red !important;
+}
+
+.index-navbar-brand {
+    /*	font-family: 'Candal', sans-serif;
+            font-family: 'Raleway', sans-serif;*/
+    font-family: 'Open+Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.index-description-text {
+    font-family: 'Candal', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.btn-index-login, .btn-index-login:hover {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: rgba(12, 184, 182, 0.91);
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.index-description {
+
+}
+
+.container-index-description {
+    padding-top: 50px;
+}
+
+.img-index-description {
+    max-width: 160px;
+}
+
+footer#footer-index, footer#footer {
+    background-color: rgb(41, 48, 46);
+}
+footer#footer-index {
+    min-height: 100px;
+    padding-top: 60px;
+    background-color: rgb(41, 48, 46);
+}
+
+.footer-about {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.far {
+    vertical-align: super;
+}
+
+.fab {
+    font-size: 2em;
+}
+
+.fa-github, .fa-linkedin {
+    cursor: pointer;
+} 
+
+.fa-dot-circle {
+    font-size: .6em;
+}
+
+.index-li-login {
+    border: 1px solid #fff;
+    max-width: 75px;
+}
+
+.index-navbar-fixed {
+    background: rgba(28,74,90, 0.9);
+    transition: all 0.3s;
+}
+
+.navbar {
+    transition: all 0.3s;
+}
+
+.index-navbar-row {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+.icon-card-custom {
+    font-size: 8em;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.btn-primary-home, .btn-primary-home:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-pathologies-table {
+    padding: 2px;
+    min-width: 52px;
+}
+
+.name-pathologies-table {
+    font-size: 1.2em;
+}
+
+.dataTables_wrapper {
+    /*max-width: 930px;*/
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: none;
+    text-align: left;
+}
+
+#table_pathologies_filter > label {
+    width: 100%;
+}
+
+#table_pathologies_filter > label > input{
+    width: 80%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+}
+
+footer#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+section#pathologies {
+    padding-bottom: 90px;
+}
+
+.form-pollution {
+    max-width: 370px;
+}
+
+.btn-pollution {
+    position: relative;
+    top: 15px;
+}
+
+.label-pollution {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#ui-datepicker-div {
+    z-index: 1050 !important;
+}
+
+.fa-save {
+    font-size: 1.5em;
+    vertical-align: bottom;
+    padding-left: 5px;
+}
+
+.select2-container {
+    margin: 0 auto !important;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    width: 70px;
+    height: 60px;
+}
+
+#floating-panel > button.btn {
+    border: 5px solid black;
+}
+
+#custom-handle {
+    width: 75px;
+    padding: 5px;
+    height: 32px;
+    background: rgb(224, 224, 224) none repeat scroll 0% 0%;
+    font-weight: bold;
+    color: black;
+}
+
+.clear-input-text {
+    padding-top: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+fieldset {
+    border: 1px solid;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+legend {
+    width: auto;
+}
+
+.datepicker-custom {
+    max-width: 185px;
+}
+
+.p-rel {
+    position: relative;
+    float: right;
+    min-width: 200px;
+}
+
+label.query-label-option {
+    min-width: 50px;
+}
+
+.input-read-only {
+    background-color: transparent;
+    border: 0px;
+}
+
+.dropzone {
+    border: 2px dashed #0087F7 !important;
+    border-radius: 5px;
+    background: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .p-rel {
+        min-width: 350px;
+    }
+    .sm-pb-50 {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    section.section-bottom-padding {
+        padding-bottom: 10vw;
+    }
+
+    .container-infowindow, .container-infowindow-query, .container-infowindow-pollution-srcs {
+        max-width: 200px;
+        overflow-y: auto;
+        height: 285px;
+    }
+    .container-infowindow-pollution-srcs {
+        height: 310px;
+    }
+    .container-infowindow-query {
+        height: auto !important;
+        max-height: 310px !important;
+    }
+    .pollution-msg {
+        margin-bottom: 0px;
+        font-size: 0.8em;
+    }
+    .btn-pollution-edit {
+        margin-left: 0px !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 5px !important;
+    }
+    .login-item {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+
+/* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+#map {
+    height: 65vh;
+    width: 100%;
+}
+
+
+/* ************************************************************************** */
+
+/* Datepicker icons */
+.ui-icon,
+.ui-widget-content .ui-icon {
+    background-image: url("../images/jquery-ui/ui-icons_444444_256x240.png");
+}
+.ui-widget-header .ui-icon {
+    background-image: url("../images/jquery-ui/ui-icons_444444_256x240.png");
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon,
+.ui-button:hover .ui-icon,
+.ui-button:focus .ui-icon {
+    background-image: url("../images/jquery-ui/ui-icons_555555_256x240.png");
+}
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+    background-image: url("../images/jquery-ui/ui-icons_ffffff_256x240.png");
+}
+.ui-state-highlight .ui-icon,
+.ui-button .ui-state-highlight.ui-icon {
+    background-image: url("../images/jquery-ui/ui-icons_777620_256x240.png");
+}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+    background-image: url("../images/jquery-ui/ui-icons_cc0000_256x240.png");
+}
+.ui-button .ui-icon {
+    background-image: url("../images/jquery-ui/ui-icons_777777_256x240.png");
+}
+
+/* Datatables icons */
+table.dataTable thead .sorting {
+    background-image: url("../images/datatables/sort_both.png");
+}
+table.dataTable thead .sorting_asc {
+    background-image: url("../images/datatables/sort_asc.png");
+}
+table.dataTable thead .sorting_desc {
+    background-image: url("../images/datatables/sort_desc.png");
+}
+table.dataTable thead .sorting_asc_disabled {
+    background-image: url("../images/datatables/sort_asc_disabled.png");
+}
+table.dataTable thead .sorting_desc_disabled {
+    background-image: url("../images/datatables/sort_desc_disabled.png");
+}
+

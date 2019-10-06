@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.0/phpunit.xsd"
+         bootstrap="../vendor/autoload.php"
+         beStrictAboutCoversAnnotation="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="false"
+         convertWarningsToExceptions="false"
+         backupGlobals="true"
+         colors="true"
+         stopOnFailure="false"
+         verbose="true">
+    <php>
+        <var name="MAKE_IN_MEMORY_DB" value="yes" />
+        <var name="DB_DSN" value="pgsql:host=46.4.48.180;dbname=bd2mosiioff" />
+        <var name="DB_USER" value="bd2mosiioff" />
+        <var name="DB_PASSWD" value="MsDFFWaKeAbe8ccc2a2a39EAlgNNfAsfAcT" />
+        <var name="DB_DBNAME" value="bd2mosiioff" />
+        <var name="DB_TABLE_PATHOLOGY_XML" value="pathology_dbunit.xml" />
+        <var name="DB_TABLE_DIAGNOSIS_XML" value="diagnosis_dbunit.xml" />
+        <var name="DB_TABLE_POLLUTION_XML" value="pollution_dbunit.xml" />
+    </php>
+
+    <filter>
+        <whitelist>
+            <directory>../src</directory>
+            <exclude>
+                <directory>../public</directory>
+                <directory>../vendor</directory>
+                <directory>../test</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+    <testsuite name="CoPPs Test Suite">
+        <directory suffix=".php">../test</directory>
+    </testsuite>
+</phpunit>

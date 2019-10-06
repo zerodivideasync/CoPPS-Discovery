@@ -1,0 +1,24 @@
+{
+    "name": "unina/copps-discovery",
+    "description": "A system for discovery of correlations between pathologies and pollution sources",
+    "authors": [
+        {
+            "name": "Simone",
+            "email": "nope@gmail.com"
+        },
+		{
+            "name": "Luca",
+            "email": "nope@gmail.com"
+        }
+    ],
+    "require": {
+        "tpmanc/csvhelper": "*",
+        "svenkuegler/php-csv-validator": "^0.1.0",
+        "twbs/bootstrap": "4.1.1",
+        "components/jquery": "^3.3",
+        "components/jqueryui": "^1.12",
+        "nnnick/chartjs": "^2.7"
+    },
+    "require-dev": {
+    }
+}
