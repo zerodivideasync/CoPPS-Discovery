@@ -90,7 +90,7 @@ if ($id_pathology) {
     <?php
 }
 ?>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzFGb8DSB0VEGxOF88ah_lWkR8KjL6cx0&libraries=drawing&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=YOURGMAPSKEY&libraries=drawing&callback=initMap"
 async defer></script>
 
 <?php

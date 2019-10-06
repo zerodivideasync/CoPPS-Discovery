@@ -73,7 +73,7 @@ include TPL_PARTS . 'navbar.php';
 </div>
 
 <script type="text/javascript" src="<?php echo APP_ROOT; ?>js/pollution_src.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzFGb8DSB0VEGxOF88ah_lWkR8KjL6cx0&libraries=drawing&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=YOURGMAPSKEY&libraries=drawing&callback=initMap"
 async defer></script>
 
 <?php
