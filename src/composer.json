@@ -14,7 +14,7 @@
     "require": {
         "tpmanc/csvhelper": "*",
         "svenkuegler/php-csv-validator": "^0.1.0",
-        "twbs/bootstrap": "4.1.1",
+        "twbs/bootstrap": "4.3.1",
         "components/jquery": "^3.3",
         "components/jqueryui": "^1.12",
         "nnnick/chartjs": "^2.7"
